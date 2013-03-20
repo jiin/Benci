@@ -1,0 +1,21 @@
+{
+  "name": "benci.js",  
+  "author": "jiin",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "0.1.0",
+  "description": "library for benchmarking of sync or async function in js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+    "util": "*"
+  },
+  "scripts": {
+    "test": "mocha -R spec test/test.js"
+  },
+  "repository": "https://github.com/jiin/benci.git"
+}
