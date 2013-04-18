@@ -48,7 +48,7 @@ fsm.createSuite('my first suite', function(suite) {
   });
 });
 
-a.run();
+fsm.run();
 ```
 
 ## License
